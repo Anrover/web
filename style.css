@@ -375,6 +375,7 @@ body {
 	background: white;
 	padding: 20px;
 	opacity: 0.9;
+	min-height: 100%;
 }
 
 
