@@ -1,0 +1,485 @@
+a{ 
+	text-decoration: none;
+}
+
+a:visited, a:active, a:link{
+	color: mediumturquoise;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+ 
+ 	height: 100%;
+}
+
+body {
+	background-image: url(images/background2.jpg); /* Путь к фоновому изображению */
+}
+
+.user-field{
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.block-data{
+	border: 3px solid white;
+	border-bottom-color: lightgrey;
+	font-size: 20px;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+
+
+.user-telephone span{
+	color: grey;
+}
+
+.field{
+	margin: 10px;
+}
+
+
+.user-info {
+	float: left;
+	width: 70%;
+}
+
+.user-avatar img {
+	width: 25%;
+	border-radius: 100%;
+}
+
+.button-pay{
+	color: mediumturquoise;
+	font-size: 25px;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.button-pay:active {
+    color: black;
+}
+
+.button-pay:hover{
+	cursor: pointer;
+}
+
+.button-placepay{
+	color: mediumturquoise;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 3px;
+	margin-right: 60px;
+	margin-left: 20px;
+}
+
+.button-placepay:active{
+	color: black;
+	background: silver;
+}
+
+.button-placepay:hover{
+	cursor: pointer;
+}
+
+
+.block-actiondata{
+	border: 3px solid white;
+	border-bottom-color: lightgrey;
+	font-size: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+
+.field-pay{
+	margin-bottom: 20px;
+}
+
+.bank-card{
+	vertical-align: top;
+	max-width: 420px;
+	height: 220px;
+	background: ghostwhite;
+	box-shadow: -8px 10px 5px gray;
+	border-radius: 20px;
+	margin: 0 40px 20px 0;
+	position: relative;
+	display: inline-block;
+}
+
+.field-partners{
+	position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.inp-num-card, .inp-date-card, .inp-pin-card{
+	height: 40px;
+	padding-left: 20px;
+	background: inherit;
+	border: 2px solid ghostwhite;
+	border-bottom-color: silver;
+	font-size: 20px;
+}
+
+.inp-num-card{
+	width: 70%;
+	margin: 60px 0 0 30px;
+}
+
+.inp-date-card{
+	width: 30%;
+	margin: 20px 0 0 30px;
+}
+
+.inp-pin-card{
+	width: 20%;
+	margin: 20px 0 0 30px;
+}
+
+.pay-data{
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	max-width: 540px;
+	vertical-align: top;
+}
+
+.inp-pay-data{
+	width: 50%;
+	height: 40px;
+	margin: 2px 10px 20px 0;
+	padding-left: 20px;
+	background: inherit;
+	border: 2px solid white;
+	border-bottom-color: silver;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.text-pay-field{
+	display: inline-block;
+	width: 40%;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.offers{
+	display: table;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.product{
+	width: 20%;
+	vertical-align: top;
+	display: table-cell;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	border-right: 50px solid white;
+}
+
+.product img{
+	width: 90%;
+	height: 120px;
+}
+
+.product:hover{
+	background: #CCE0FF;	
+}
+
+.product-text{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.product-price{
+	margin-top: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	color: grey;
+}
+
+.about-user{
+	margin-top: 40px;
+	font-size: 18px;
+	width: 80%;
+	font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  padding-left: 50px;
+  left: 0;
+  bottom: 30px;
+  width: calc(100% - 50px);
+}
+
+/*social-icons*/
+.twitter, .vkontakte, .instagram, .facebook, .gmail {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.vkontakte img:hover{
+	margin: 0 0 0 -50px;
+	cursor: pointer;
+}
+
+.twitter img {
+	margin: -50px 0 0 0;
+}
+
+.twitter img:hover{
+	margin: -50px 0 0 -50px;
+	cursor: pointer;
+}
+
+.instagram img {
+	margin: -100px 0 0 0;
+}
+
+.instagram img:hover{
+	margin: -100px 0 0 -50px;
+	cursor: pointer;
+}
+
+.gmail img {
+	margin: -200px 0 0 0;
+}
+
+.gmail img:hover{
+	margin: -200px 0 0 -50px;
+	cursor: pointer;
+}
+
+.facebook img {
+	margin: -150px 0 0 0;
+}
+
+.facebook img:hover{
+	margin: -150px 0 0 -50px;
+	cursor: pointer;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.button-show-all{
+	font-size: 20px;
+	margin-top: 10px;
+	padding-bottom: 150px;
+}
+
+.button-send-pay, .button-send-bankpay{
+	padding: 5px 10px 5px 10px;
+	border: 2px solid silver;
+	font-size: 20px;
+	color: grey;
+	background: linear-gradient(to top left, mediumturquoise, pink, white);
+	cursor: pointer;
+}
+
+.pay-from-bank-data{
+	font-size: 18px;
+	width: 100%;
+}
+
+.pay-from-bank-data input{
+	font-size: 18px;
+}
+
+.text-field-prompt{
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.text-field-bank-data{
+	display: inline-block;
+	color: grey;
+	vertical-align: top;
+	width: 30%
+}
+
+.input-field-bank-data, .input-field-summpay, .input-field-nds{
+	width: 35%;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	background: inherit;
+	border: 2px solid white;
+	border-bottom-color: silver;
+	display: inline-block;
+}
+
+.input-field-summpay{
+	width: 15%;
+}
+
+.nds-block, .telephone-block{
+	display: inline-block;
+	width: 35%;
+}
+
+.input-field-nds{
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+.button-clear-form{
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.button-send-bankpay{
+	margin-top: 40px;
+}
+
+.button-nds, .button-telephone{
+	display: inline-block;
+	font-size: 16px;
+	color: mediumturquoise;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.button-nds:active, .button-telephone:active {
+    color: black;
+}
+
+.button-nds:hover,.button-telephone:hover{
+	cursor: pointer;
+}
+
+.button-telephone{
+	font-size: 12px;
+}
+
+/******************************/
+.wrapper {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: white;
+	padding: 20px;
+	opacity: 0.9;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+	.user-avatar img{
+		width: 100%
+	}
+
+	.user-info{
+		float: none;
+		width: 100%;
+	}
+
+	.inp-pin-card{
+		margin-left: 10px;
+	}
+
+	.product{
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.input-field-bank-data{
+		width: 60%;
+	}
+
+	.nds-block, .telephone-block{
+		width: 60%;
+	}
+
+	.input-field-summpay{
+		width: 50%;
+	}
+
+	.text-field-bank-data{
+		width: 100%;
+	}
+
+	.input-field-bank-data, .input-field-summpay, .input-field-nds{
+		padding-left: 2px;
+	}
+}
+@media screen and (max-width: 500px){
+	.text-pay-field{
+		display: block;
+		width: 100%;
+	}
+
+	.inp-pay-data{
+		display: block;
+		width: 100%;
+	}
+
+	.product{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.inline-block{
+		display: block;
+	}
+
+	.twitter{
+		margin-left: 40px;
+	}
+
+	.input-field-bank-data{
+		width: 80%;
+		margin-top: 10px;
+	}
+
+	.nds-block, .telephone-block{
+		width: 80%;
+	}
+
+	.pay-from-bank-data input{
+		font-size: 13px;
+	}
+
+	.button-send-pay, .button-send-bankpay{
+		font-size: 16px;
+	}
+
+	.button-placepay{
+		margin-left: 0;
+	}
+
+	.button-nds, .button-telephone{
+		font-size: 11px;
+	}
+
+	.wrapper{
+		padding: 3px;
+		/*width: 100%;*/
+	}
+
+	.footer{
+		margin: 0 auto;
+	}
+
+	.about-user{
+		width: 100%;
+	}
+}
